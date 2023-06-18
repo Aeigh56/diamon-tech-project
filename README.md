@@ -1,1 +1,1 @@
-# diamon-tech-project
+# diamond-tech-project
