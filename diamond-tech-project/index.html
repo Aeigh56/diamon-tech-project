@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diamond Tech Project</title>
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--font awesome link-->
+    <script src="https://kit.fontawesome.com/acec3fdcd1.js" crossorigin="anonymous"></script>
+
+    <!--CSS external link-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!--Header/Navbar Menu-->
+    <div class="header" id="header">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <img src="./diamond-logo.webp" alt="Diamond Tech Logo" class="logo">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            <span class="Nav">Diamond Tech</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Our Products</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <!--Hero/Home Section-->
+      
+      <div class="px-4 pt-5 my-5 text-center border-bottom" id="home">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./home-pic.jpeg" class="home-pic" alt="Home Pic">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome To <br> Diamond Tech</h1>
+            <p class="lead">We are an ICT company incorporated in Zimbabwe and South Africa with a key focus on hardware, software, consumables and electricals. 
+              Check out our website to learn more about us and reach out to us if you have any questions.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      
+
+      <!--About us section-->
+      
+      <div class="px-4 pt-5 my-5 text-center border-bottom" id="about">
+        <h2 class="display-4 fw-bold text-body-emphasis">About Us <br> At Diamond Tech</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"> Diamond Tech is a Youth and Black owned company, focused on on partnering with global ICT brands since 2018. Diamond was Founded by Fortune Makhanya</p>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./about-us.webp" class="about-us" alt="about-us" >
+          </div>
+        </div>
+      </div>
+
+      <!--Our Products-->
+      <div class="container px-4 py-5" id="products">
+        <h2 class="pb-2 border-bottom">Our Products</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div>
+              <i class="fa-solid fa-laptop fa-xl"></i>
+              <h3 class="fs-2">PC's & Laptops</h3>
+              <p>We are one of the biggest suppliers of PC's and Laptops of some of the biggest brands such as Apple, HP, Acer and Fijitsu. We also offer PC and Laptop spare parts and accessories; such as screens,keyboards and motherboards.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <i class="fa-solid fa-print fa-xl"></i>
+              <h3 class="fs-2">Printers & Cartridges</h3>
+              <p>We are huge suppliers of commercial printers and cartridges, such as Canon, Hp and Fujitsu. Our catridges also come with a 24 months warranty on any hardware issues that may arise.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <i class="fa-sharp fa-light fa-mobile-retro fa-xl"></i>
+              <h3 class="fs-2">Cellphones & Tablets</h3>
+              <p>We are also huge suppliers of big cellphone and tablet brands such as Apple, Samsung and Hauwei. We have both brand new and second-hand products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact Us-->
+
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contact">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Us</h1>
+            <p class="col-lg-10 fs-4">If after reading about our company, you see yourself interested in knowing more about us or would even love to patronise us, you can do so by either sending us an email on info@dtech.com or fill in the form on the right hand side.</p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Leave a message here</label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Submit Message</button>
+              <hr class="my-4">
+              <small class="text-body-secondary">By enquiring with us, you agree to the terms of use.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!--footer section-->
+      <div class="container" id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">Coded by: A. Nyatela</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="https://www.instagram.com/aeigh_xx"/></svg>instagram</a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="https://www.facebook.com/awonke.nyatela"/></svg>facebook</a></li>
+          </ul>
+        </footer>
+      </div>
+
+      
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+
+
+
+.logo  {
+    position: 0% auto;
+    height: 70px ;
+    width: 70px ;
+}
+
+.Nav  {
+
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home-pic  {
+
+    width: 500px ;
+    height: 400px ;
+}
+
+.about-us  {
+
+    width: 600px;
+    height: 400px;
+}
